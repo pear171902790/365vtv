@@ -1,0 +1,13 @@
+﻿*{ margin: 0;padding: 0}
+html,body{ height: 100%;width: 100%}
+div.main{ width: 70%;margin: 0 auto;}
+div.head{ width: 100%;border-bottom: 1px solid black;height: 100px;}
+.ab{ position: absolute;}
+.re{ position: relative;}
+.bo{ border: 1px solid black;}
+.ib{ display: inline-block;}
+div.logo{ width: 20%;top: 20%;left: 2%;height: 60%;}
+div.search{ width: 55%;top: 30%;left: 25%;height: 30%;}
+div.search input{ width: 80% !important;}
+div.right-menu{ width: 25%;top: 0;right: 0;height: 100%;}
+div.right-menu span{ float: left;padding: 4% 5%;}
