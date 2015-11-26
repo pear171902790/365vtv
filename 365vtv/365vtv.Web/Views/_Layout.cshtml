@@ -3,33 +3,58 @@
 <html>
 <head>
     <meta name="viewport" content="width=device-width" />
-    <title>天天微视</title>
-    <link href="~/Content/bootstrap.min.css" rel="stylesheet"/>
+    <title>365微视</title>
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
     <link href="~/Content/Layout.css" rel="stylesheet" />
 </head>
 <body>
-<div class="main bo">
-    <div class="head re">
-        <div class="logo ab bo ib">
-            Logo
-        </div>
-        <div class="input-group search ab ib">
-            <input type="text" class="form-control" placeholder="请输入关键字...">
-            <span class="input-group-btn">
-                <button class="btn btn-default" type="button">搜索</button>
-            </span>
-        </div>
+    <div class="main">
+        <div class="head re">
+            <div class="logo ab bo ib">
+                Logo
+            </div>
+            <div class="input-group search ab ib">
+                <input type="text" class="form-control" placeholder="请输入关键字...">
+                <span class="input-group-btn">
+                    <button class="btn btn-default btn-search" type="button">搜索</button>
+                </span>
+            </div>
 
-        <div class="right-menu ab ib">
-            <span><a>意见反馈</a></span>
-            <span><a>上传视频</a></span>
-            <span><a>登&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;录</a></span>
-            <span><a>雇佣须知</a></span>
-            <span><a>会员充值</a></span>
-            <span><a>注册账号</a></span>
+            <div class="right-menu ab ib">
+                <span><a>意见反馈</a></span>
+                <span><a>上传视频</a></span>
+                <span><a>登&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;录</a></span>
+                <span><a>雇佣须知</a></span>
+                <span><a>会员充值</a></span>
+                <span><a>注册账号</a></span>
+            </div>
+        </div>
+        <div class="split-line"></div>
+        <div class="menu">
+            <span><a>推荐</a></span>
+            <span>
+                <a>明星V影</a>
+            </span>
+            <span>
+                <a>婚庆V影</a>
+            </span>
+            <span>
+                <a>影视公司</a>
+            </span>
+            <span>
+                <a>搜星直播</a>
+            </span>
+            <span><a>影视器材</a></span>
         </div>
     </div>
-</div>
-@RenderBody()
+    @RenderBody()
+<script src="~/Scripts/jquery-1.9.1.min.js"></script>
+<script>
+    $('div.menu span,div.right-menu span').on('mouseover', function() {
+        $(this).addClass('mohu');
+    }).on('mouseleave', function() {
+        $(this).removeClass('mohu');
+    });
+</script>
 </body>
 </html>
