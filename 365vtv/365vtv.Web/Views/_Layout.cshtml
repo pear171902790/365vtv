@@ -9,52 +9,65 @@
 </head>
 <body>
     <div class="main">
-        <div class="head re">
-            <div class="logo ab bo ib">
-                Logo
-            </div>
-            <div class="input-group search ab ib">
-                <input type="text" class="form-control" placeholder="请输入关键字...">
-                <span class="input-group-btn">
-                    <button class="btn btn-default btn-search" type="button">搜索</button>
-                </span>
-            </div>
+        <div class="head-wrap">
+            <div class="head re">
+                <div class="logo ab bo ib">
 
-            <div class="right-menu ab ib">
-                <span><a>意见反馈</a></span>
-                <span><a>上传视频</a></span>
-                <span><a>登&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;录</a></span>
-                <span><a>雇佣须知</a></span>
-                <span><a>会员充值</a></span>
-                <span><a>注册账号</a></span>
+                </div>
+                <div class="input-group search ab ib">
+                    <input type="text" class="form-control" placeholder="请输入关键字...">
+                    <span class="input-group-btn">
+                        <button class="btn btn-default btn-search" type="button">搜索</button>
+                    </span>
+                </div>
+
+                <div class="right-menu ab ib">
+                    <span><a>意见反馈</a></span>
+                    <span><a>上传视频</a></span>
+                    <span><a>登&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;录</a></span>
+                    <span><a>雇佣须知</a></span>
+                    <span><a>会员充值</a></span>
+                    <span><a>注册账号</a></span>
+                </div>
             </div>
         </div>
         <div class="split-line"></div>
-        <div class="menu">
-            <span><a>推荐</a></span>
-            <span>
-                <a>明星V影</a>
-            </span>
-            <span>
-                <a>婚庆V影</a>
-            </span>
-            <span>
-                <a>影视公司</a>
-            </span>
-            <span>
-                <a>搜星直播</a>
-            </span>
-            <span><a>影视器材</a></span>
+        <div class="menu-wrap">
+            <div class="menu">
+                <span><a>推荐</a></span>
+                <span>
+                    <a>明星V影</a>
+                </span>
+                <span>
+                    <a>婚庆V影</a>
+                </span>
+                <span>
+                    <a>影视公司</a>
+                </span>
+                <span>
+                    <a>搜星直播</a>
+                </span>
+                <span><a>影视器材</a></span>
+                <span class="split-vline"></span>
+                <span><a>最新</a></span>
+                <span><a>热门</a></span>
+                <span><a>搞笑</a></span>
+                <span><a>爱情</a></span>
+                <span><a>自我秀</a></span>
+                <span><a>时尚</a></span>
+                <span><a>美食</a></span>
+                <span><a>养生</a></span>
+            </div>
         </div>
     </div>
     @RenderBody()
-<script src="~/Scripts/jquery-1.9.1.min.js"></script>
-<script>
-    $('div.menu span,div.right-menu span').on('mouseover', function() {
-        $(this).addClass('mohu');
-    }).on('mouseleave', function() {
-        $(this).removeClass('mohu');
-    });
-</script>
+    <script src="~/Scripts/jquery-1.9.1.min.js"></script>
+    <script>
+        $('div.menu span,div.right-menu span').on('mouseover', function () {
+            $(this).addClass('mohu');
+        }).on('mouseleave', function () {
+            $(this).removeClass('mohu');
+        });
+    </script>
 </body>
 </html>
