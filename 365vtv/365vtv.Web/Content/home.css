@@ -1,0 +1,68 @@
+﻿    .home-carousel {
+        width: 1024px;
+        margin: 0 auto;
+    }
+    .home-main {
+        width: 1024px;
+        margin: 20px auto;
+    }
+    .home-main-left {
+        width: 80%;
+        top: 0;
+        left: 0;
+    }
+    .home-main-right {
+        width: 20%;
+        top: 0;
+        right: 0;
+    }
+    .hot-star{ width: 100%;}
+    .green-line{ width: 100%;
+        border-top: 1px solid rgb(105, 159, 0);
+    }
+    .module-title {
+        font-size: 1.5em;
+        color: rgb(105, 159, 0);
+    }
+    .more {
+        margin-left: 5%;
+        font-size: 0.8em;
+        color: rgb(105, 159, 0);
+    }
+    .v-list {
+        height: 200px;
+        width: 100%;
+    }
+    .v-list-left {
+        top: 10%;
+        width: 50%;
+        left: 0;
+    }
+    .v-list-left div{
+        top: 10%;
+        width: 400px;
+        left: 0;
+        
+    }
+    
+    .v-list-right {
+        width: 50%;
+        right: 0;
+    }
+    .v-list-right div {
+        display: inline-block;
+        float: left;
+        width: 150px;
+        margin-left: 10%;
+        margin-top: 5%;
+    }
+    
+    .hot-company {
+        height: 500px;
+    }
+    .v-title {
+        color: rgb(51, 51, 51);
+    }
+    .v-info {
+        color: rgb(153, 153, 153);
+    }
