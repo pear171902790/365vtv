@@ -97,6 +97,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\365vtv-logo.jpg" />
+    <Content Include="Content\365vtv-logo-02.jpg" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\home.css" />
