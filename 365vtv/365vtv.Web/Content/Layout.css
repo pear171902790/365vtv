@@ -41,11 +41,10 @@ div.head {
 }
 
 div.logo {
-    width: 20%;
-    top: 20%;
+    
+    top: 10%;
     left: 2%;
-    height: 60%;
-    background-color: wheat;
+    
 }
 
 div.search {
