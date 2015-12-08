@@ -99,9 +99,11 @@
   <ItemGroup>
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\bss.jpg" />
     <Content Include="Content\home.css" />
     <Content Include="Content\Layout.css" />
     <Content Include="Content\logo.jpg" />
+    <Content Include="Content\sss.jpg" />
     <Content Include="Global.asax" />
     <Content Include="Content\bootstrap.min.css.map" />
     <Content Include="Content\bootstrap.css.map" />
